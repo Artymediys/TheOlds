@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/artymediys/Desktop/Projects/BinaryTree/BinTree.h
+
+/Users/artymediys/Desktop/Projects/BinaryTree/main.cpp
+iostream
+-
+BinTree.h
+/Users/artymediys/Desktop/Projects/BinaryTree/BinTree.h
+

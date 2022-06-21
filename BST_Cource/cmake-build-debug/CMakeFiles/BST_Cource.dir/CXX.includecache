@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/artymediys/Desktop/Projects/BST_Cource/BST.h
+vector
+-
+
+/Users/artymediys/Desktop/Projects/BST_Cource/CLI.h
+BST.h
+/Users/artymediys/Desktop/Projects/BST_Cource/BST.h
+string
+-
+
+/Users/artymediys/Desktop/Projects/BST_Cource/main.cpp
+iostream
+-
+CLI.h
+/Users/artymediys/Desktop/Projects/BST_Cource/CLI.h
+

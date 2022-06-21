@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/artymediys/Desktop/Projects/algLZW/lzw-d.h
+lzw_streambase.h
+/Users/artymediys/Desktop/Projects/algLZW/lzw_streambase.h
+iostream
+-
+
+/Users/artymediys/Desktop/Projects/algLZW/lzw.cpp
+iostream
+-
+fstream
+-
+cstring
+-
+lzw_streambase.h
+/Users/artymediys/Desktop/Projects/algLZW/lzw_streambase.h
+lzw-d.h
+/Users/artymediys/Desktop/Projects/algLZW/lzw-d.h
+lzw.h
+/Users/artymediys/Desktop/Projects/algLZW/lzw.h
+
+/Users/artymediys/Desktop/Projects/algLZW/lzw.h
+string
+-
+unordered_map
+-
+
+/Users/artymediys/Desktop/Projects/algLZW/lzw_streambase.h
+string
+-
+

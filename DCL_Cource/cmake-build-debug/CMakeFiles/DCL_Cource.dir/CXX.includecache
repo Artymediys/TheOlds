@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/artymediys/Desktop/Projects/DCL_Cource/CLI.h
+DCList.h
+/Users/artymediys/Desktop/Projects/DCL_Cource/DCList.h
+string
+-
+
+/Users/artymediys/Desktop/Projects/DCL_Cource/DCList.h
+iostream
+-
+
+/Users/artymediys/Desktop/Projects/DCL_Cource/main.cpp
+CLI.h
+/Users/artymediys/Desktop/Projects/DCL_Cource/CLI.h
+
