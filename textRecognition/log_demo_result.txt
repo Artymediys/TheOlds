@@ -1,0 +1,232 @@
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/demo_1.png    	available                	0.9999
+demo_image/demo_2.jpg    	shakeshack               	0.9533
+demo_image/demo_3.png    	london                   	0.9840
+demo_image/demo_4.png    	greenstead               	0.9985
+demo_image/demo_5.png    	toast                    	0.9961
+demo_image/demo_6.png    	merry                    	0.9975
+demo_image/demo_7.png    	underground              	1.0000
+demo_image/demo_8.jpg    	ronaldo                  	0.8388
+demo_image/demo_9.jpg    	bally                    	0.7565
+demo_image/demo_10.jpg   	university               	0.9998
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/demo_1.png    	available                	0.9999
+demo_image/demo_2.jpg    	shakeshack               	0.9533
+demo_image/demo_3.png    	london                   	0.9840
+demo_image/demo_4.png    	greenstead               	0.9985
+demo_image/demo_5.png    	toast                    	0.9961
+demo_image/demo_6.png    	merry                    	0.9975
+demo_image/demo_7.png    	underground              	1.0000
+demo_image/demo_8.jpg    	ronaldo                  	0.8388
+demo_image/demo_9.jpg    	bally                    	0.7565
+demo_image/demo_10.jpg   	university               	0.9998
+demo_image/hw.png        	helloworld               	0.9956
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/demo_1.png    	available                	0.9999
+demo_image/demo_2.jpg    	shakeshack               	0.9533
+demo_image/demo_3.png    	london                   	0.9840
+demo_image/demo_4.png    	greenstead               	0.9985
+demo_image/demo_5.png    	toast                    	0.9961
+demo_image/demo_6.png    	merry                    	0.9975
+demo_image/demo_7.png    	underground              	1.0000
+demo_image/demo_8.jpg    	ronaldo                  	0.8388
+demo_image/demo_9.jpg    	bally                    	0.7565
+demo_image/demo_10.jpg   	university               	0.9998
+demo_image/hello_world.png	hears                    	0.0021
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/demo_1.png    	available                	0.9999
+demo_image/demo_2.jpg    	shakeshack               	0.9533
+demo_image/demo_3.png    	london                   	0.9840
+demo_image/demo_4.png    	greenstead               	0.9985
+demo_image/demo_5.png    	toast                    	0.9961
+demo_image/demo_6.png    	merry                    	0.9975
+demo_image/demo_7.png    	underground              	1.0000
+demo_image/demo_8.jpg    	ronaldo                  	0.8388
+demo_image/demo_9.jpg    	bally                    	0.7565
+demo_image/demo_10.jpg   	university               	0.9998
+demo_image/hello.png     	hello                    	0.9999
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/demo_1.png    	available                	0.9999
+demo_image/demo_2.jpg    	shakeshack               	0.9533
+demo_image/demo_3.png    	london                   	0.9840
+demo_image/demo_4.png    	greenstead               	0.9985
+demo_image/demo_5.png    	toast                    	0.9961
+demo_image/demo_6.png    	merry                    	0.9975
+demo_image/demo_7.png    	underground              	1.0000
+demo_image/demo_8.jpg    	ronaldo                  	0.8388
+demo_image/demo_9.jpg    	bally                    	0.7565
+demo_image/demo_10.jpg   	university               	0.9998
+demo_image/layslogo.png  	lays                     	0.9613
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/demo_1.png    	available                	0.9999
+demo_image/demo_2.jpg    	shakeshack               	0.9533
+demo_image/demo_3.png    	london                   	0.9840
+demo_image/demo_4.png    	greenstead               	0.9985
+demo_image/demo_5.png    	toast                    	0.9961
+demo_image/demo_6.png    	merry                    	0.9975
+demo_image/demo_7.png    	underground              	1.0000
+demo_image/demo_8.jpg    	ronaldo                  	0.8388
+demo_image/demo_9.jpg    	bally                    	0.7565
+demo_image/demo_10.jpg   	university               	0.9998
+demo_image/layslogo.png  	lays                     	0.9613
+demo_image/raflogo.png   	raffillo                 	0.0930
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/demo_1.png    	available                	0.9999
+demo_image/demo_2.jpg    	shakeshack               	0.9533
+demo_image/demo_3.png    	london                   	0.9840
+demo_image/demo_4.png    	greenstead               	0.9985
+demo_image/demo_5.png    	toast                    	0.9961
+demo_image/demo_6.png    	merry                    	0.9975
+demo_image/demo_7.png    	underground              	1.0000
+demo_image/demo_8.jpg    	ronaldo                  	0.8388
+demo_image/demo_9.jpg    	bally                    	0.7565
+demo_image/demo_10.jpg   	university               	0.9998
+demo_image/layslogo.png  	lays                     	0.9613
+demo_image/raffaello.png 	raffaello                	0.9830
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/lays.jpg      	the                      	0.2368
+demo_image/layslogo.png  	lays                     	0.9613
+demo_image/raffaello.png 	raffaello                	0.9830
+demo_image/sadd.jpg      	the                      	0.2790
+demo_image/sax.jpg       	the                      	0.0294
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/lays.jpg      	the                      	0.2368
+demo_image/layslogo.png  	lays                     	0.9613
+demo_image/raffaello.png 	raffaello                	0.9830
+demo_image/sadd.jpg      	the                      	0.2790
+demo_image/sax.jpg       	the                      	0.0294
+demo_image/wine.jpg      	the                      	0.0332
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/das.jpg       	mountgay                 	0.9952
+demo_image/lays.jpg      	the                      	0.2368
+demo_image/layslogo.png  	lays                     	0.9613
+demo_image/raffaello.png 	raffaello                	0.9830
+demo_image/sadd.jpg      	the                      	0.2790
+demo_image/sax.jpg       	the                      	0.0294
+demo_image/wine.jpg      	the                      	0.0332
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/das.jpg       	mountgay                 	0.9952
+demo_image/handwr.png    	innamaric                	0.0616
+demo_image/lays.jpg      	the                      	0.2368
+demo_image/layslogo.png  	lays                     	0.9613
+demo_image/raffaello.png 	raffaello                	0.9830
+demo_image/sadd.jpg      	the                      	0.2790
+demo_image/sax.jpg       	the                      	0.0294
+demo_image/wine.jpg      	the                      	0.0332
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/das.jpg       	mountgay                 	0.9952
+demo_image/handwr.png    	innamaric                	0.0616
+demo_image/layslogo.png  	lays                     	0.9613
+demo_image/raffaello.png 	raffaello                	0.9830
+demo_image/winetest.jpg  	tand                     	0.0018
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/das.jpg       	mountgay                 	0.9952
+demo_image/handwr.png    	innamaric                	0.0616
+demo_image/jacob.png     	jacobscreek              	0.9946
+demo_image/layslogo.png  	lays                     	0.9613
+demo_image/raffaello.png 	raffaello                	0.9830
+demo_image/winetest.jpg  	tand                     	0.0018
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/das.jpg       	mountgay                 	0.9952
+demo_image/handwr.png    	innamaric                	0.0616
+demo_image/jacob.png     	jacobscreek              	0.9946
+demo_image/layslogo.png  	lays                     	0.9613
+demo_image/raffaello.png 	raffaello                	0.9830
+demo_image/rotatelays.png	a                        	0.2097
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/demo_1.png    	available                	0.9999
+demo_image/demo_2.jpg    	shakeshack               	0.9533
+demo_image/demo_3.png    	london                   	0.9840
+demo_image/demo_4.png    	greenstead               	0.9985
+demo_image/demo_5.png    	toast                    	0.9961
+demo_image/demo_6.png    	merry                    	0.9975
+demo_image/demo_7.png    	underground              	1.0000
+demo_image/demo_8.jpg    	ronaldo                  	0.8388
+demo_image/demo_9.jpg    	bally                    	0.7565
+demo_image/demo_10.jpg   	university               	0.9998
+demo_image/handwr.png    	innamaric                	0.0616
+demo_image/jacob.png     	jacobscreek              	0.9946
+demo_image/layslogo.png  	lays                     	0.9613
+demo_image/mg.jpg        	mountgay                 	0.9952
+demo_image/raffaello.png 	raffaello                	0.9831
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/test1.png     	and                      	0.0111
+demo_image/test2.png     	apr                      	0.0734
+demo_image/test3.png     	and                      	0.0864
+demo_image/test4.png     	the                      	0.2423
+demo_image/test5.png     	prop                     	0.0016
+demo_image/test6.png     	instracting              	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/test1.png     	and                      	0.0111
+demo_image/test1_1.png   	semplaces                	0.0000
+demo_image/test2.png     	apr                      	0.0734
+demo_image/test3.png     	and                      	0.0864
+demo_image/test4.png     	the                      	0.2423
+demo_image/test5.png     	prop                     	0.0016
+demo_image/test6.png     	instracting              	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/test1.png     	and                      	0.0111
+demo_image/test1_1.png   	remymartin               	0.9987
+demo_image/test2.png     	apr                      	0.0734
+demo_image/test3.png     	and                      	0.0864
+demo_image/test4.png     	the                      	0.2423
+demo_image/test5.png     	prop                     	0.0016
+demo_image/test6.png     	instracting              	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/test1.png     	and                      	0.0111
+demo_image/test1_1.png   	remymartin               	0.9987
+demo_image/test1_2.png   	consimination            	0.0000
+demo_image/test2.png     	apr                      	0.0734
+demo_image/test3.png     	and                      	0.0864
+demo_image/test4.png     	the                      	0.2423
+demo_image/test5.png     	prop                     	0.0016
+demo_image/test6.png     	instracting              	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+demo_image/test1.png     	and                      	0.0111
+demo_image/test1_1.png   	consimination            	0.0000
+demo_image/test1_2.png   	remymartin               	0.9987
+demo_image/test2.png     	apr                      	0.0734
+demo_image/test3.png     	and                      	0.0864
+demo_image/test4.png     	the                      	0.2423
+demo_image/test5.png     	prop                     	0.0016
+demo_image/test6.png     	instracting              	0.0000
