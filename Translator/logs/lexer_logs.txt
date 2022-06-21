@@ -1,0 +1,578 @@
+Tokens.LBRA
+Tokens.GOTO
+Tokens.MARK = @skip
+Tokens.SEMICOLON
+Tokens.PUTS
+Tokens.STRING = i am skipped
+Tokens.SEMICOLON
+Tokens.MARK = @skip
+Tokens.SEMICOLON
+Tokens.PUTS
+Tokens.STRING = i am NOT skipped
+Tokens.SEMICOLON
+Tokens.MARK = @loop
+Tokens.SEMICOLON
+Tokens.PUTS
+Tokens.STRING = I am looped
+Tokens.SEMICOLON
+Tokens.GOTO
+Tokens.MARK = @loop
+Tokens.SEMICOLON
+Tokens.ID = ff
+Tokens.SET
+Tokens.STRING =   
+Tokens.SEMICOLON
+Tokens.ID = fs
+Tokens.SET
+Tokens.STRING =   
+Tokens.SEMICOLON
+Tokens.ID = ft
+Tokens.SET
+Tokens.STRING =   
+Tokens.SEMICOLON
+Tokens.ID = sf
+Tokens.SET
+Tokens.STRING =   
+Tokens.SEMICOLON
+Tokens.ID = ss
+Tokens.SET
+Tokens.STRING =   
+Tokens.SEMICOLON
+Tokens.ID = st
+Tokens.SET
+Tokens.STRING =   
+Tokens.SEMICOLON
+Tokens.ID = tf
+Tokens.SET
+Tokens.STRING =   
+Tokens.SEMICOLON
+Tokens.ID = ts
+Tokens.SET
+Tokens.STRING =   
+Tokens.SEMICOLON
+Tokens.ID = tt
+Tokens.SET
+Tokens.STRING =   
+Tokens.SEMICOLON
+Tokens.ID = win
+Tokens.SET
+Tokens.NUM = 0
+Tokens.SEMICOLON
+Tokens.ID = player
+Tokens.SET
+Tokens.STRING =  X 
+Tokens.SEMICOLON
+Tokens.ID = empty
+Tokens.SET
+Tokens.NUM = 9
+Tokens.SEMICOLON
+Tokens.PUTS
+Tokens.STRING = BOARD: 
+Tokens.SEMICOLON
+Tokens.PUTS
+Tokens.STRING = 1 | 2 | 3
+Tokens.SEMICOLON
+Tokens.PUTS
+Tokens.STRING = ----------
+Tokens.SEMICOLON
+Tokens.PUTS
+Tokens.STRING = 4 | 5 | 6
+Tokens.SEMICOLON
+Tokens.PUTS
+Tokens.STRING = ----------
+Tokens.SEMICOLON
+Tokens.PUTS
+Tokens.STRING = 7 | 8 | 9
+Tokens.SEMICOLON
+Tokens.PUTS
+Tokens.STRING = GO!
+Tokens.SEMICOLON
+Tokens.PUTS
+Tokens.STRING =  
+Tokens.SEMICOLON
+Tokens.WHILE
+Tokens.LPAR
+Tokens.ID = win
+Tokens.EQUAL
+Tokens.NUM = 0
+Tokens.SEMICOLON
+Tokens.RPAR
+Tokens.LBRA
+Tokens.ID = win_row
+Tokens.SET
+Tokens.ID = player
+Tokens.PLUS
+Tokens.ID = player
+Tokens.PLUS
+Tokens.ID = player
+Tokens.SEMICOLON
+Tokens.ID = congrats_message
+Tokens.SET
+Tokens.STRING = player
+Tokens.PLUS
+Tokens.ID = player
+Tokens.PLUS
+Tokens.STRING = won!
+Tokens.SEMICOLON
+Tokens.PUTS
+Tokens.ID = ff
+Tokens.PLUS
+Tokens.STRING = |
+Tokens.PLUS
+Tokens.ID = fs
+Tokens.PLUS
+Tokens.STRING = |
+Tokens.PLUS
+Tokens.ID = ft
+Tokens.SEMICOLON
+Tokens.PUTS
+Tokens.STRING = ----------
+Tokens.SEMICOLON
+Tokens.PUTS
+Tokens.ID = sf
+Tokens.PLUS
+Tokens.STRING = |
+Tokens.PLUS
+Tokens.ID = ss
+Tokens.PLUS
+Tokens.STRING = |
+Tokens.PLUS
+Tokens.ID = st
+Tokens.SEMICOLON
+Tokens.PUTS
+Tokens.STRING = ----------
+Tokens.SEMICOLON
+Tokens.PUTS
+Tokens.ID = tf
+Tokens.PLUS
+Tokens.STRING = |
+Tokens.PLUS
+Tokens.ID = ts
+Tokens.PLUS
+Tokens.STRING = |
+Tokens.PLUS
+Tokens.ID = tt
+Tokens.SEMICOLON
+Tokens.PUTS
+Tokens.STRING = player with symbol 
+Tokens.PLUS
+Tokens.ID = player
+Tokens.SEMICOLON
+Tokens.PUTS
+Tokens.STRING = enter number of cell from 1 to 9
+Tokens.SEMICOLON
+Tokens.ID = num
+Tokens.SET
+Tokens.GETS
+Tokens.SEMICOLON
+Tokens.IF
+Tokens.LPAR
+Tokens.ID = num
+Tokens.EQUAL
+Tokens.NUM = 1
+Tokens.SEMICOLON
+Tokens.RPAR
+Tokens.LBRA
+Tokens.ID = ff
+Tokens.SET
+Tokens.ID = player
+Tokens.SEMICOLON
+Tokens.ID = empty
+Tokens.SET
+Tokens.ID = empty
+Tokens.MINUS
+Tokens.NUM = 1
+Tokens.SEMICOLON
+Tokens.RBRA
+Tokens.IF
+Tokens.LPAR
+Tokens.ID = num
+Tokens.EQUAL
+Tokens.NUM = 2
+Tokens.SEMICOLON
+Tokens.RPAR
+Tokens.LBRA
+Tokens.ID = fs
+Tokens.SET
+Tokens.ID = player
+Tokens.SEMICOLON
+Tokens.ID = empty
+Tokens.SET
+Tokens.ID = empty
+Tokens.MINUS
+Tokens.NUM = 1
+Tokens.SEMICOLON
+Tokens.RBRA
+Tokens.IF
+Tokens.LPAR
+Tokens.ID = num
+Tokens.EQUAL
+Tokens.NUM = 3
+Tokens.SEMICOLON
+Tokens.RPAR
+Tokens.LBRA
+Tokens.ID = ft
+Tokens.SET
+Tokens.ID = player
+Tokens.SEMICOLON
+Tokens.ID = empty
+Tokens.SET
+Tokens.ID = empty
+Tokens.MINUS
+Tokens.NUM = 1
+Tokens.SEMICOLON
+Tokens.RBRA
+Tokens.IF
+Tokens.LPAR
+Tokens.ID = num
+Tokens.EQUAL
+Tokens.NUM = 4
+Tokens.SEMICOLON
+Tokens.RPAR
+Tokens.LBRA
+Tokens.ID = sf
+Tokens.SET
+Tokens.ID = player
+Tokens.SEMICOLON
+Tokens.ID = empty
+Tokens.SET
+Tokens.ID = empty
+Tokens.MINUS
+Tokens.NUM = 1
+Tokens.SEMICOLON
+Tokens.RBRA
+Tokens.IF
+Tokens.LPAR
+Tokens.ID = num
+Tokens.EQUAL
+Tokens.NUM = 5
+Tokens.SEMICOLON
+Tokens.RPAR
+Tokens.LBRA
+Tokens.ID = ss
+Tokens.SET
+Tokens.ID = player
+Tokens.SEMICOLON
+Tokens.ID = empty
+Tokens.SET
+Tokens.ID = empty
+Tokens.MINUS
+Tokens.NUM = 1
+Tokens.SEMICOLON
+Tokens.RBRA
+Tokens.IF
+Tokens.LPAR
+Tokens.ID = num
+Tokens.EQUAL
+Tokens.NUM = 6
+Tokens.SEMICOLON
+Tokens.RPAR
+Tokens.LBRA
+Tokens.ID = st
+Tokens.SET
+Tokens.ID = player
+Tokens.SEMICOLON
+Tokens.ID = empty
+Tokens.SET
+Tokens.ID = empty
+Tokens.MINUS
+Tokens.NUM = 1
+Tokens.SEMICOLON
+Tokens.RBRA
+Tokens.IF
+Tokens.LPAR
+Tokens.ID = num
+Tokens.EQUAL
+Tokens.NUM = 7
+Tokens.SEMICOLON
+Tokens.RPAR
+Tokens.LBRA
+Tokens.ID = tf
+Tokens.SET
+Tokens.ID = player
+Tokens.SEMICOLON
+Tokens.ID = empty
+Tokens.SET
+Tokens.ID = empty
+Tokens.MINUS
+Tokens.NUM = 1
+Tokens.SEMICOLON
+Tokens.RBRA
+Tokens.IF
+Tokens.LPAR
+Tokens.ID = num
+Tokens.EQUAL
+Tokens.NUM = 8
+Tokens.SEMICOLON
+Tokens.RPAR
+Tokens.LBRA
+Tokens.ID = ts
+Tokens.SET
+Tokens.ID = player
+Tokens.SEMICOLON
+Tokens.ID = empty
+Tokens.SET
+Tokens.ID = empty
+Tokens.MINUS
+Tokens.NUM = 1
+Tokens.SEMICOLON
+Tokens.RBRA
+Tokens.IF
+Tokens.LPAR
+Tokens.ID = num
+Tokens.EQUAL
+Tokens.NUM = 9
+Tokens.SEMICOLON
+Tokens.RPAR
+Tokens.LBRA
+Tokens.ID = tt
+Tokens.SET
+Tokens.ID = player
+Tokens.SEMICOLON
+Tokens.ID = empty
+Tokens.SET
+Tokens.ID = empty
+Tokens.MINUS
+Tokens.NUM = 1
+Tokens.SEMICOLON
+Tokens.RBRA
+Tokens.IF
+Tokens.LPAR
+Tokens.ID = ff
+Tokens.PLUS
+Tokens.ID = fs
+Tokens.PLUS
+Tokens.ID = ft
+Tokens.EQUAL
+Tokens.ID = win_row
+Tokens.SEMICOLON
+Tokens.RPAR
+Tokens.LBRA
+Tokens.PUTS
+Tokens.ID = congrats_message
+Tokens.SEMICOLON
+Tokens.ID = win
+Tokens.SET
+Tokens.NUM = 1
+Tokens.SEMICOLON
+Tokens.RBRA
+Tokens.IF
+Tokens.LPAR
+Tokens.ID = sf
+Tokens.PLUS
+Tokens.ID = ss
+Tokens.PLUS
+Tokens.ID = st
+Tokens.EQUAL
+Tokens.ID = win_row
+Tokens.SEMICOLON
+Tokens.RPAR
+Tokens.LBRA
+Tokens.PUTS
+Tokens.ID = congrats_message
+Tokens.SEMICOLON
+Tokens.ID = win
+Tokens.SET
+Tokens.NUM = 1
+Tokens.SEMICOLON
+Tokens.RBRA
+Tokens.IF
+Tokens.LPAR
+Tokens.ID = tf
+Tokens.PLUS
+Tokens.ID = ts
+Tokens.PLUS
+Tokens.ID = tt
+Tokens.EQUAL
+Tokens.ID = win_row
+Tokens.SEMICOLON
+Tokens.RPAR
+Tokens.LBRA
+Tokens.PUTS
+Tokens.ID = congrats_message
+Tokens.SEMICOLON
+Tokens.ID = win
+Tokens.SET
+Tokens.NUM = 1
+Tokens.SEMICOLON
+Tokens.RBRA
+Tokens.IF
+Tokens.LPAR
+Tokens.ID = ff
+Tokens.PLUS
+Tokens.ID = sf
+Tokens.PLUS
+Tokens.ID = tf
+Tokens.EQUAL
+Tokens.ID = win_row
+Tokens.SEMICOLON
+Tokens.RPAR
+Tokens.LBRA
+Tokens.PUTS
+Tokens.ID = congrats_message
+Tokens.SEMICOLON
+Tokens.ID = win
+Tokens.SET
+Tokens.NUM = 1
+Tokens.SEMICOLON
+Tokens.RBRA
+Tokens.IF
+Tokens.LPAR
+Tokens.ID = fs
+Tokens.PLUS
+Tokens.ID = ss
+Tokens.PLUS
+Tokens.ID = ts
+Tokens.EQUAL
+Tokens.ID = win_row
+Tokens.SEMICOLON
+Tokens.RPAR
+Tokens.LBRA
+Tokens.PUTS
+Tokens.ID = congrats_message
+Tokens.SEMICOLON
+Tokens.ID = win
+Tokens.SET
+Tokens.NUM = 1
+Tokens.SEMICOLON
+Tokens.RBRA
+Tokens.IF
+Tokens.LPAR
+Tokens.ID = ft
+Tokens.PLUS
+Tokens.ID = st
+Tokens.PLUS
+Tokens.ID = tt
+Tokens.EQUAL
+Tokens.ID = win_row
+Tokens.SEMICOLON
+Tokens.RPAR
+Tokens.LBRA
+Tokens.PUTS
+Tokens.ID = congrats_message
+Tokens.SEMICOLON
+Tokens.ID = win
+Tokens.SET
+Tokens.NUM = 1
+Tokens.SEMICOLON
+Tokens.RBRA
+Tokens.IF
+Tokens.LPAR
+Tokens.ID = ff
+Tokens.PLUS
+Tokens.ID = ss
+Tokens.PLUS
+Tokens.ID = tt
+Tokens.EQUAL
+Tokens.ID = win_row
+Tokens.SEMICOLON
+Tokens.RPAR
+Tokens.LBRA
+Tokens.PUTS
+Tokens.ID = congrats_message
+Tokens.SEMICOLON
+Tokens.ID = win
+Tokens.SET
+Tokens.NUM = 1
+Tokens.SEMICOLON
+Tokens.RBRA
+Tokens.IF
+Tokens.LPAR
+Tokens.ID = tf
+Tokens.PLUS
+Tokens.ID = ss
+Tokens.PLUS
+Tokens.ID = ft
+Tokens.EQUAL
+Tokens.ID = win_row
+Tokens.SEMICOLON
+Tokens.RPAR
+Tokens.LBRA
+Tokens.PUTS
+Tokens.ID = congrats_message
+Tokens.SEMICOLON
+Tokens.ID = win
+Tokens.SET
+Tokens.NUM = 1
+Tokens.SEMICOLON
+Tokens.RBRA
+Tokens.IF
+Tokens.LPAR
+Tokens.ID = empty
+Tokens.PLUS
+Tokens.ID = win
+Tokens.EQUAL
+Tokens.NUM = 0
+Tokens.SEMICOLON
+Tokens.RPAR
+Tokens.LBRA
+Tokens.PUTS
+Tokens.STRING = no one won
+Tokens.SEMICOLON
+Tokens.ID = win
+Tokens.SET
+Tokens.NUM = 1
+Tokens.SEMICOLON
+Tokens.RBRA
+Tokens.IF
+Tokens.LPAR
+Tokens.ID = player
+Tokens.EQUAL
+Tokens.STRING =  X 
+Tokens.SEMICOLON
+Tokens.RPAR
+Tokens.LBRA
+Tokens.ID = player
+Tokens.SET
+Tokens.STRING =  0 
+Tokens.SEMICOLON
+Tokens.RBRA
+Tokens.ELSE
+Tokens.LBRA
+Tokens.ID = player
+Tokens.SET
+Tokens.STRING =  X 
+Tokens.SEMICOLON
+Tokens.RBRA
+Tokens.RBRA
+Tokens.PUTS
+Tokens.ID = ff
+Tokens.PLUS
+Tokens.STRING = |
+Tokens.PLUS
+Tokens.ID = fs
+Tokens.PLUS
+Tokens.STRING = |
+Tokens.PLUS
+Tokens.ID = ft
+Tokens.SEMICOLON
+Tokens.PUTS
+Tokens.STRING = ----------
+Tokens.SEMICOLON
+Tokens.PUTS
+Tokens.ID = sf
+Tokens.PLUS
+Tokens.STRING = |
+Tokens.PLUS
+Tokens.ID = ss
+Tokens.PLUS
+Tokens.STRING = |
+Tokens.PLUS
+Tokens.ID = st
+Tokens.SEMICOLON
+Tokens.PUTS
+Tokens.STRING = ----------
+Tokens.SEMICOLON
+Tokens.PUTS
+Tokens.ID = tf
+Tokens.PLUS
+Tokens.STRING = |
+Tokens.PLUS
+Tokens.ID = ts
+Tokens.PLUS
+Tokens.STRING = |
+Tokens.PLUS
+Tokens.ID = tt
+Tokens.SEMICOLON
+Tokens.RBRA
+Tokens.EOF

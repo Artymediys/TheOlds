@@ -1,0 +1,811 @@
+ParserExpr.MAIN, VALUE: None 
+	NODES:
+	ParserExpr.SEQ, VALUE: None 
+		NODES:
+		ParserExpr.GOTO, VALUE: None 
+			NODES:
+			ParserExpr.EXPR, VALUE: None 
+				NODES:
+				ParserExpr.MARK, VALUE: @skip 
+		ParserExpr.STDOUT, VALUE: None 
+			NODES:
+			ParserExpr.EXPR, VALUE: None 
+				NODES:
+				ParserExpr.CONST, VALUE: i am skipped 
+		ParserExpr.EXPR, VALUE: None 
+			NODES:
+			ParserExpr.MARK, VALUE: @skip 
+		ParserExpr.STDOUT, VALUE: None 
+			NODES:
+			ParserExpr.EXPR, VALUE: None 
+				NODES:
+				ParserExpr.CONST, VALUE: i am NOT skipped 
+		ParserExpr.EXPR, VALUE: None 
+			NODES:
+			ParserExpr.MARK, VALUE: @loop 
+		ParserExpr.STDOUT, VALUE: None 
+			NODES:
+			ParserExpr.EXPR, VALUE: None 
+				NODES:
+				ParserExpr.CONST, VALUE: I am looped 
+		ParserExpr.GOTO, VALUE: None 
+			NODES:
+			ParserExpr.EXPR, VALUE: None 
+				NODES:
+				ParserExpr.MARK, VALUE: @loop 
+		ParserExpr.EXPR, VALUE: None 
+			NODES:
+			ParserExpr.SET, VALUE: None 
+				NODES:
+				ParserExpr.VAR, VALUE: ff 
+				ParserExpr.CONST, VALUE:    
+		ParserExpr.EXPR, VALUE: None 
+			NODES:
+			ParserExpr.SET, VALUE: None 
+				NODES:
+				ParserExpr.VAR, VALUE: fs 
+				ParserExpr.CONST, VALUE:    
+		ParserExpr.EXPR, VALUE: None 
+			NODES:
+			ParserExpr.SET, VALUE: None 
+				NODES:
+				ParserExpr.VAR, VALUE: ft 
+				ParserExpr.CONST, VALUE:    
+		ParserExpr.EXPR, VALUE: None 
+			NODES:
+			ParserExpr.SET, VALUE: None 
+				NODES:
+				ParserExpr.VAR, VALUE: sf 
+				ParserExpr.CONST, VALUE:    
+		ParserExpr.EXPR, VALUE: None 
+			NODES:
+			ParserExpr.SET, VALUE: None 
+				NODES:
+				ParserExpr.VAR, VALUE: ss 
+				ParserExpr.CONST, VALUE:    
+		ParserExpr.EXPR, VALUE: None 
+			NODES:
+			ParserExpr.SET, VALUE: None 
+				NODES:
+				ParserExpr.VAR, VALUE: st 
+				ParserExpr.CONST, VALUE:    
+		ParserExpr.EXPR, VALUE: None 
+			NODES:
+			ParserExpr.SET, VALUE: None 
+				NODES:
+				ParserExpr.VAR, VALUE: tf 
+				ParserExpr.CONST, VALUE:    
+		ParserExpr.EXPR, VALUE: None 
+			NODES:
+			ParserExpr.SET, VALUE: None 
+				NODES:
+				ParserExpr.VAR, VALUE: ts 
+				ParserExpr.CONST, VALUE:    
+		ParserExpr.EXPR, VALUE: None 
+			NODES:
+			ParserExpr.SET, VALUE: None 
+				NODES:
+				ParserExpr.VAR, VALUE: tt 
+				ParserExpr.CONST, VALUE:    
+		ParserExpr.EXPR, VALUE: None 
+			NODES:
+			ParserExpr.SET, VALUE: None 
+				NODES:
+				ParserExpr.VAR, VALUE: win 
+				ParserExpr.CONST, VALUE: 0 
+		ParserExpr.EXPR, VALUE: None 
+			NODES:
+			ParserExpr.SET, VALUE: None 
+				NODES:
+				ParserExpr.VAR, VALUE: player 
+				ParserExpr.CONST, VALUE:  X  
+		ParserExpr.EXPR, VALUE: None 
+			NODES:
+			ParserExpr.SET, VALUE: None 
+				NODES:
+				ParserExpr.VAR, VALUE: empty 
+				ParserExpr.CONST, VALUE: 9 
+		ParserExpr.STDOUT, VALUE: None 
+			NODES:
+			ParserExpr.EXPR, VALUE: None 
+				NODES:
+				ParserExpr.CONST, VALUE: BOARD:  
+		ParserExpr.STDOUT, VALUE: None 
+			NODES:
+			ParserExpr.EXPR, VALUE: None 
+				NODES:
+				ParserExpr.CONST, VALUE: 1 | 2 | 3 
+		ParserExpr.STDOUT, VALUE: None 
+			NODES:
+			ParserExpr.EXPR, VALUE: None 
+				NODES:
+				ParserExpr.CONST, VALUE: ---------- 
+		ParserExpr.STDOUT, VALUE: None 
+			NODES:
+			ParserExpr.EXPR, VALUE: None 
+				NODES:
+				ParserExpr.CONST, VALUE: 4 | 5 | 6 
+		ParserExpr.STDOUT, VALUE: None 
+			NODES:
+			ParserExpr.EXPR, VALUE: None 
+				NODES:
+				ParserExpr.CONST, VALUE: ---------- 
+		ParserExpr.STDOUT, VALUE: None 
+			NODES:
+			ParserExpr.EXPR, VALUE: None 
+				NODES:
+				ParserExpr.CONST, VALUE: 7 | 8 | 9 
+		ParserExpr.STDOUT, VALUE: None 
+			NODES:
+			ParserExpr.EXPR, VALUE: None 
+				NODES:
+				ParserExpr.CONST, VALUE: GO! 
+		ParserExpr.STDOUT, VALUE: None 
+			NODES:
+			ParserExpr.EXPR, VALUE: None 
+				NODES:
+				ParserExpr.CONST, VALUE:   
+		ParserExpr.WHILE, VALUE: None 
+			NODES:
+			ParserExpr.EXPR, VALUE: None 
+				NODES:
+				ParserExpr.EQUAL, VALUE: None 
+					NODES:
+					ParserExpr.VAR, VALUE: win 
+					ParserExpr.CONST, VALUE: 0 
+			ParserExpr.SEQ, VALUE: None 
+				NODES:
+				ParserExpr.EXPR, VALUE: None 
+					NODES:
+					ParserExpr.SET, VALUE: None 
+						NODES:
+						ParserExpr.VAR, VALUE: win_row 
+						ParserExpr.ADD, VALUE: None 
+							NODES:
+							ParserExpr.ADD, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: player 
+								ParserExpr.VAR, VALUE: player 
+							ParserExpr.VAR, VALUE: player 
+				ParserExpr.EXPR, VALUE: None 
+					NODES:
+					ParserExpr.SET, VALUE: None 
+						NODES:
+						ParserExpr.VAR, VALUE: congrats_message 
+						ParserExpr.ADD, VALUE: None 
+							NODES:
+							ParserExpr.ADD, VALUE: None 
+								NODES:
+								ParserExpr.CONST, VALUE: player 
+								ParserExpr.VAR, VALUE: player 
+							ParserExpr.CONST, VALUE: won! 
+				ParserExpr.STDOUT, VALUE: None 
+					NODES:
+					ParserExpr.EXPR, VALUE: None 
+						NODES:
+						ParserExpr.ADD, VALUE: None 
+							NODES:
+							ParserExpr.ADD, VALUE: None 
+								NODES:
+								ParserExpr.ADD, VALUE: None 
+									NODES:
+									ParserExpr.ADD, VALUE: None 
+										NODES:
+										ParserExpr.VAR, VALUE: ff 
+										ParserExpr.CONST, VALUE: | 
+									ParserExpr.VAR, VALUE: fs 
+								ParserExpr.CONST, VALUE: | 
+							ParserExpr.VAR, VALUE: ft 
+				ParserExpr.STDOUT, VALUE: None 
+					NODES:
+					ParserExpr.EXPR, VALUE: None 
+						NODES:
+						ParserExpr.CONST, VALUE: ---------- 
+				ParserExpr.STDOUT, VALUE: None 
+					NODES:
+					ParserExpr.EXPR, VALUE: None 
+						NODES:
+						ParserExpr.ADD, VALUE: None 
+							NODES:
+							ParserExpr.ADD, VALUE: None 
+								NODES:
+								ParserExpr.ADD, VALUE: None 
+									NODES:
+									ParserExpr.ADD, VALUE: None 
+										NODES:
+										ParserExpr.VAR, VALUE: sf 
+										ParserExpr.CONST, VALUE: | 
+									ParserExpr.VAR, VALUE: ss 
+								ParserExpr.CONST, VALUE: | 
+							ParserExpr.VAR, VALUE: st 
+				ParserExpr.STDOUT, VALUE: None 
+					NODES:
+					ParserExpr.EXPR, VALUE: None 
+						NODES:
+						ParserExpr.CONST, VALUE: ---------- 
+				ParserExpr.STDOUT, VALUE: None 
+					NODES:
+					ParserExpr.EXPR, VALUE: None 
+						NODES:
+						ParserExpr.ADD, VALUE: None 
+							NODES:
+							ParserExpr.ADD, VALUE: None 
+								NODES:
+								ParserExpr.ADD, VALUE: None 
+									NODES:
+									ParserExpr.ADD, VALUE: None 
+										NODES:
+										ParserExpr.VAR, VALUE: tf 
+										ParserExpr.CONST, VALUE: | 
+									ParserExpr.VAR, VALUE: ts 
+								ParserExpr.CONST, VALUE: | 
+							ParserExpr.VAR, VALUE: tt 
+				ParserExpr.STDOUT, VALUE: None 
+					NODES:
+					ParserExpr.EXPR, VALUE: None 
+						NODES:
+						ParserExpr.ADD, VALUE: None 
+							NODES:
+							ParserExpr.CONST, VALUE: player with symbol  
+							ParserExpr.VAR, VALUE: player 
+				ParserExpr.STDOUT, VALUE: None 
+					NODES:
+					ParserExpr.EXPR, VALUE: None 
+						NODES:
+						ParserExpr.CONST, VALUE: enter number of cell from 1 to 9 
+				ParserExpr.EXPR, VALUE: None 
+					NODES:
+					ParserExpr.SET, VALUE: None 
+						NODES:
+						ParserExpr.VAR, VALUE: num 
+						ParserExpr.STDIN, VALUE: None 
+				ParserExpr.IF1, VALUE: None 
+					NODES:
+					ParserExpr.EXPR, VALUE: None 
+						NODES:
+						ParserExpr.EQUAL, VALUE: None 
+							NODES:
+							ParserExpr.VAR, VALUE: num 
+							ParserExpr.CONST, VALUE: 1 
+					ParserExpr.SEQ, VALUE: None 
+						NODES:
+						ParserExpr.EXPR, VALUE: None 
+							NODES:
+							ParserExpr.SET, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: ff 
+								ParserExpr.VAR, VALUE: player 
+						ParserExpr.EXPR, VALUE: None 
+							NODES:
+							ParserExpr.SET, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: empty 
+								ParserExpr.SUB, VALUE: None 
+									NODES:
+									ParserExpr.VAR, VALUE: empty 
+									ParserExpr.CONST, VALUE: 1 
+				ParserExpr.IF1, VALUE: None 
+					NODES:
+					ParserExpr.EXPR, VALUE: None 
+						NODES:
+						ParserExpr.EQUAL, VALUE: None 
+							NODES:
+							ParserExpr.VAR, VALUE: num 
+							ParserExpr.CONST, VALUE: 2 
+					ParserExpr.SEQ, VALUE: None 
+						NODES:
+						ParserExpr.EXPR, VALUE: None 
+							NODES:
+							ParserExpr.SET, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: fs 
+								ParserExpr.VAR, VALUE: player 
+						ParserExpr.EXPR, VALUE: None 
+							NODES:
+							ParserExpr.SET, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: empty 
+								ParserExpr.SUB, VALUE: None 
+									NODES:
+									ParserExpr.VAR, VALUE: empty 
+									ParserExpr.CONST, VALUE: 1 
+				ParserExpr.IF1, VALUE: None 
+					NODES:
+					ParserExpr.EXPR, VALUE: None 
+						NODES:
+						ParserExpr.EQUAL, VALUE: None 
+							NODES:
+							ParserExpr.VAR, VALUE: num 
+							ParserExpr.CONST, VALUE: 3 
+					ParserExpr.SEQ, VALUE: None 
+						NODES:
+						ParserExpr.EXPR, VALUE: None 
+							NODES:
+							ParserExpr.SET, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: ft 
+								ParserExpr.VAR, VALUE: player 
+						ParserExpr.EXPR, VALUE: None 
+							NODES:
+							ParserExpr.SET, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: empty 
+								ParserExpr.SUB, VALUE: None 
+									NODES:
+									ParserExpr.VAR, VALUE: empty 
+									ParserExpr.CONST, VALUE: 1 
+				ParserExpr.IF1, VALUE: None 
+					NODES:
+					ParserExpr.EXPR, VALUE: None 
+						NODES:
+						ParserExpr.EQUAL, VALUE: None 
+							NODES:
+							ParserExpr.VAR, VALUE: num 
+							ParserExpr.CONST, VALUE: 4 
+					ParserExpr.SEQ, VALUE: None 
+						NODES:
+						ParserExpr.EXPR, VALUE: None 
+							NODES:
+							ParserExpr.SET, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: sf 
+								ParserExpr.VAR, VALUE: player 
+						ParserExpr.EXPR, VALUE: None 
+							NODES:
+							ParserExpr.SET, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: empty 
+								ParserExpr.SUB, VALUE: None 
+									NODES:
+									ParserExpr.VAR, VALUE: empty 
+									ParserExpr.CONST, VALUE: 1 
+				ParserExpr.IF1, VALUE: None 
+					NODES:
+					ParserExpr.EXPR, VALUE: None 
+						NODES:
+						ParserExpr.EQUAL, VALUE: None 
+							NODES:
+							ParserExpr.VAR, VALUE: num 
+							ParserExpr.CONST, VALUE: 5 
+					ParserExpr.SEQ, VALUE: None 
+						NODES:
+						ParserExpr.EXPR, VALUE: None 
+							NODES:
+							ParserExpr.SET, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: ss 
+								ParserExpr.VAR, VALUE: player 
+						ParserExpr.EXPR, VALUE: None 
+							NODES:
+							ParserExpr.SET, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: empty 
+								ParserExpr.SUB, VALUE: None 
+									NODES:
+									ParserExpr.VAR, VALUE: empty 
+									ParserExpr.CONST, VALUE: 1 
+				ParserExpr.IF1, VALUE: None 
+					NODES:
+					ParserExpr.EXPR, VALUE: None 
+						NODES:
+						ParserExpr.EQUAL, VALUE: None 
+							NODES:
+							ParserExpr.VAR, VALUE: num 
+							ParserExpr.CONST, VALUE: 6 
+					ParserExpr.SEQ, VALUE: None 
+						NODES:
+						ParserExpr.EXPR, VALUE: None 
+							NODES:
+							ParserExpr.SET, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: st 
+								ParserExpr.VAR, VALUE: player 
+						ParserExpr.EXPR, VALUE: None 
+							NODES:
+							ParserExpr.SET, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: empty 
+								ParserExpr.SUB, VALUE: None 
+									NODES:
+									ParserExpr.VAR, VALUE: empty 
+									ParserExpr.CONST, VALUE: 1 
+				ParserExpr.IF1, VALUE: None 
+					NODES:
+					ParserExpr.EXPR, VALUE: None 
+						NODES:
+						ParserExpr.EQUAL, VALUE: None 
+							NODES:
+							ParserExpr.VAR, VALUE: num 
+							ParserExpr.CONST, VALUE: 7 
+					ParserExpr.SEQ, VALUE: None 
+						NODES:
+						ParserExpr.EXPR, VALUE: None 
+							NODES:
+							ParserExpr.SET, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: tf 
+								ParserExpr.VAR, VALUE: player 
+						ParserExpr.EXPR, VALUE: None 
+							NODES:
+							ParserExpr.SET, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: empty 
+								ParserExpr.SUB, VALUE: None 
+									NODES:
+									ParserExpr.VAR, VALUE: empty 
+									ParserExpr.CONST, VALUE: 1 
+				ParserExpr.IF1, VALUE: None 
+					NODES:
+					ParserExpr.EXPR, VALUE: None 
+						NODES:
+						ParserExpr.EQUAL, VALUE: None 
+							NODES:
+							ParserExpr.VAR, VALUE: num 
+							ParserExpr.CONST, VALUE: 8 
+					ParserExpr.SEQ, VALUE: None 
+						NODES:
+						ParserExpr.EXPR, VALUE: None 
+							NODES:
+							ParserExpr.SET, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: ts 
+								ParserExpr.VAR, VALUE: player 
+						ParserExpr.EXPR, VALUE: None 
+							NODES:
+							ParserExpr.SET, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: empty 
+								ParserExpr.SUB, VALUE: None 
+									NODES:
+									ParserExpr.VAR, VALUE: empty 
+									ParserExpr.CONST, VALUE: 1 
+				ParserExpr.IF1, VALUE: None 
+					NODES:
+					ParserExpr.EXPR, VALUE: None 
+						NODES:
+						ParserExpr.EQUAL, VALUE: None 
+							NODES:
+							ParserExpr.VAR, VALUE: num 
+							ParserExpr.CONST, VALUE: 9 
+					ParserExpr.SEQ, VALUE: None 
+						NODES:
+						ParserExpr.EXPR, VALUE: None 
+							NODES:
+							ParserExpr.SET, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: tt 
+								ParserExpr.VAR, VALUE: player 
+						ParserExpr.EXPR, VALUE: None 
+							NODES:
+							ParserExpr.SET, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: empty 
+								ParserExpr.SUB, VALUE: None 
+									NODES:
+									ParserExpr.VAR, VALUE: empty 
+									ParserExpr.CONST, VALUE: 1 
+				ParserExpr.IF1, VALUE: None 
+					NODES:
+					ParserExpr.EXPR, VALUE: None 
+						NODES:
+						ParserExpr.EQUAL, VALUE: None 
+							NODES:
+							ParserExpr.ADD, VALUE: None 
+								NODES:
+								ParserExpr.ADD, VALUE: None 
+									NODES:
+									ParserExpr.VAR, VALUE: ff 
+									ParserExpr.VAR, VALUE: fs 
+								ParserExpr.VAR, VALUE: ft 
+							ParserExpr.VAR, VALUE: win_row 
+					ParserExpr.SEQ, VALUE: None 
+						NODES:
+						ParserExpr.STDOUT, VALUE: None 
+							NODES:
+							ParserExpr.EXPR, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: congrats_message 
+						ParserExpr.EXPR, VALUE: None 
+							NODES:
+							ParserExpr.SET, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: win 
+								ParserExpr.CONST, VALUE: 1 
+				ParserExpr.IF1, VALUE: None 
+					NODES:
+					ParserExpr.EXPR, VALUE: None 
+						NODES:
+						ParserExpr.EQUAL, VALUE: None 
+							NODES:
+							ParserExpr.ADD, VALUE: None 
+								NODES:
+								ParserExpr.ADD, VALUE: None 
+									NODES:
+									ParserExpr.VAR, VALUE: sf 
+									ParserExpr.VAR, VALUE: ss 
+								ParserExpr.VAR, VALUE: st 
+							ParserExpr.VAR, VALUE: win_row 
+					ParserExpr.SEQ, VALUE: None 
+						NODES:
+						ParserExpr.STDOUT, VALUE: None 
+							NODES:
+							ParserExpr.EXPR, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: congrats_message 
+						ParserExpr.EXPR, VALUE: None 
+							NODES:
+							ParserExpr.SET, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: win 
+								ParserExpr.CONST, VALUE: 1 
+				ParserExpr.IF1, VALUE: None 
+					NODES:
+					ParserExpr.EXPR, VALUE: None 
+						NODES:
+						ParserExpr.EQUAL, VALUE: None 
+							NODES:
+							ParserExpr.ADD, VALUE: None 
+								NODES:
+								ParserExpr.ADD, VALUE: None 
+									NODES:
+									ParserExpr.VAR, VALUE: tf 
+									ParserExpr.VAR, VALUE: ts 
+								ParserExpr.VAR, VALUE: tt 
+							ParserExpr.VAR, VALUE: win_row 
+					ParserExpr.SEQ, VALUE: None 
+						NODES:
+						ParserExpr.STDOUT, VALUE: None 
+							NODES:
+							ParserExpr.EXPR, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: congrats_message 
+						ParserExpr.EXPR, VALUE: None 
+							NODES:
+							ParserExpr.SET, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: win 
+								ParserExpr.CONST, VALUE: 1 
+				ParserExpr.IF1, VALUE: None 
+					NODES:
+					ParserExpr.EXPR, VALUE: None 
+						NODES:
+						ParserExpr.EQUAL, VALUE: None 
+							NODES:
+							ParserExpr.ADD, VALUE: None 
+								NODES:
+								ParserExpr.ADD, VALUE: None 
+									NODES:
+									ParserExpr.VAR, VALUE: ff 
+									ParserExpr.VAR, VALUE: sf 
+								ParserExpr.VAR, VALUE: tf 
+							ParserExpr.VAR, VALUE: win_row 
+					ParserExpr.SEQ, VALUE: None 
+						NODES:
+						ParserExpr.STDOUT, VALUE: None 
+							NODES:
+							ParserExpr.EXPR, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: congrats_message 
+						ParserExpr.EXPR, VALUE: None 
+							NODES:
+							ParserExpr.SET, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: win 
+								ParserExpr.CONST, VALUE: 1 
+				ParserExpr.IF1, VALUE: None 
+					NODES:
+					ParserExpr.EXPR, VALUE: None 
+						NODES:
+						ParserExpr.EQUAL, VALUE: None 
+							NODES:
+							ParserExpr.ADD, VALUE: None 
+								NODES:
+								ParserExpr.ADD, VALUE: None 
+									NODES:
+									ParserExpr.VAR, VALUE: fs 
+									ParserExpr.VAR, VALUE: ss 
+								ParserExpr.VAR, VALUE: ts 
+							ParserExpr.VAR, VALUE: win_row 
+					ParserExpr.SEQ, VALUE: None 
+						NODES:
+						ParserExpr.STDOUT, VALUE: None 
+							NODES:
+							ParserExpr.EXPR, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: congrats_message 
+						ParserExpr.EXPR, VALUE: None 
+							NODES:
+							ParserExpr.SET, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: win 
+								ParserExpr.CONST, VALUE: 1 
+				ParserExpr.IF1, VALUE: None 
+					NODES:
+					ParserExpr.EXPR, VALUE: None 
+						NODES:
+						ParserExpr.EQUAL, VALUE: None 
+							NODES:
+							ParserExpr.ADD, VALUE: None 
+								NODES:
+								ParserExpr.ADD, VALUE: None 
+									NODES:
+									ParserExpr.VAR, VALUE: ft 
+									ParserExpr.VAR, VALUE: st 
+								ParserExpr.VAR, VALUE: tt 
+							ParserExpr.VAR, VALUE: win_row 
+					ParserExpr.SEQ, VALUE: None 
+						NODES:
+						ParserExpr.STDOUT, VALUE: None 
+							NODES:
+							ParserExpr.EXPR, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: congrats_message 
+						ParserExpr.EXPR, VALUE: None 
+							NODES:
+							ParserExpr.SET, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: win 
+								ParserExpr.CONST, VALUE: 1 
+				ParserExpr.IF1, VALUE: None 
+					NODES:
+					ParserExpr.EXPR, VALUE: None 
+						NODES:
+						ParserExpr.EQUAL, VALUE: None 
+							NODES:
+							ParserExpr.ADD, VALUE: None 
+								NODES:
+								ParserExpr.ADD, VALUE: None 
+									NODES:
+									ParserExpr.VAR, VALUE: ff 
+									ParserExpr.VAR, VALUE: ss 
+								ParserExpr.VAR, VALUE: tt 
+							ParserExpr.VAR, VALUE: win_row 
+					ParserExpr.SEQ, VALUE: None 
+						NODES:
+						ParserExpr.STDOUT, VALUE: None 
+							NODES:
+							ParserExpr.EXPR, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: congrats_message 
+						ParserExpr.EXPR, VALUE: None 
+							NODES:
+							ParserExpr.SET, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: win 
+								ParserExpr.CONST, VALUE: 1 
+				ParserExpr.IF1, VALUE: None 
+					NODES:
+					ParserExpr.EXPR, VALUE: None 
+						NODES:
+						ParserExpr.EQUAL, VALUE: None 
+							NODES:
+							ParserExpr.ADD, VALUE: None 
+								NODES:
+								ParserExpr.ADD, VALUE: None 
+									NODES:
+									ParserExpr.VAR, VALUE: tf 
+									ParserExpr.VAR, VALUE: ss 
+								ParserExpr.VAR, VALUE: ft 
+							ParserExpr.VAR, VALUE: win_row 
+					ParserExpr.SEQ, VALUE: None 
+						NODES:
+						ParserExpr.STDOUT, VALUE: None 
+							NODES:
+							ParserExpr.EXPR, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: congrats_message 
+						ParserExpr.EXPR, VALUE: None 
+							NODES:
+							ParserExpr.SET, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: win 
+								ParserExpr.CONST, VALUE: 1 
+				ParserExpr.IF1, VALUE: None 
+					NODES:
+					ParserExpr.EXPR, VALUE: None 
+						NODES:
+						ParserExpr.EQUAL, VALUE: None 
+							NODES:
+							ParserExpr.ADD, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: empty 
+								ParserExpr.VAR, VALUE: win 
+							ParserExpr.CONST, VALUE: 0 
+					ParserExpr.SEQ, VALUE: None 
+						NODES:
+						ParserExpr.STDOUT, VALUE: None 
+							NODES:
+							ParserExpr.EXPR, VALUE: None 
+								NODES:
+								ParserExpr.CONST, VALUE: no one won 
+						ParserExpr.EXPR, VALUE: None 
+							NODES:
+							ParserExpr.SET, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: win 
+								ParserExpr.CONST, VALUE: 1 
+				ParserExpr.IF2, VALUE: None 
+					NODES:
+					ParserExpr.EXPR, VALUE: None 
+						NODES:
+						ParserExpr.EQUAL, VALUE: None 
+							NODES:
+							ParserExpr.VAR, VALUE: player 
+							ParserExpr.CONST, VALUE:  X  
+					ParserExpr.SEQ, VALUE: None 
+						NODES:
+						ParserExpr.EXPR, VALUE: None 
+							NODES:
+							ParserExpr.SET, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: player 
+								ParserExpr.CONST, VALUE:  0  
+					ParserExpr.SEQ, VALUE: None 
+						NODES:
+						ParserExpr.EXPR, VALUE: None 
+							NODES:
+							ParserExpr.SET, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: player 
+								ParserExpr.CONST, VALUE:  X  
+		ParserExpr.STDOUT, VALUE: None 
+			NODES:
+			ParserExpr.EXPR, VALUE: None 
+				NODES:
+				ParserExpr.ADD, VALUE: None 
+					NODES:
+					ParserExpr.ADD, VALUE: None 
+						NODES:
+						ParserExpr.ADD, VALUE: None 
+							NODES:
+							ParserExpr.ADD, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: ff 
+								ParserExpr.CONST, VALUE: | 
+							ParserExpr.VAR, VALUE: fs 
+						ParserExpr.CONST, VALUE: | 
+					ParserExpr.VAR, VALUE: ft 
+		ParserExpr.STDOUT, VALUE: None 
+			NODES:
+			ParserExpr.EXPR, VALUE: None 
+				NODES:
+				ParserExpr.CONST, VALUE: ---------- 
+		ParserExpr.STDOUT, VALUE: None 
+			NODES:
+			ParserExpr.EXPR, VALUE: None 
+				NODES:
+				ParserExpr.ADD, VALUE: None 
+					NODES:
+					ParserExpr.ADD, VALUE: None 
+						NODES:
+						ParserExpr.ADD, VALUE: None 
+							NODES:
+							ParserExpr.ADD, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: sf 
+								ParserExpr.CONST, VALUE: | 
+							ParserExpr.VAR, VALUE: ss 
+						ParserExpr.CONST, VALUE: | 
+					ParserExpr.VAR, VALUE: st 
+		ParserExpr.STDOUT, VALUE: None 
+			NODES:
+			ParserExpr.EXPR, VALUE: None 
+				NODES:
+				ParserExpr.CONST, VALUE: ---------- 
+		ParserExpr.STDOUT, VALUE: None 
+			NODES:
+			ParserExpr.EXPR, VALUE: None 
+				NODES:
+				ParserExpr.ADD, VALUE: None 
+					NODES:
+					ParserExpr.ADD, VALUE: None 
+						NODES:
+						ParserExpr.ADD, VALUE: None 
+							NODES:
+							ParserExpr.ADD, VALUE: None 
+								NODES:
+								ParserExpr.VAR, VALUE: tf 
+								ParserExpr.CONST, VALUE: | 
+							ParserExpr.VAR, VALUE: ts 
+						ParserExpr.CONST, VALUE: | 
+					ParserExpr.VAR, VALUE: tt 
