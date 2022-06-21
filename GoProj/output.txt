@@ -1,0 +1,4 @@
+hello – 3
+greetings – 1
+yo – 2
+hi – 2

@@ -1,0 +1,3 @@
+/Users/artymediys/Desktop/Projects/linux_c_rea/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/artymediys/Desktop/Projects/linux_c_rea/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/artymediys/Desktop/Projects/linux_c_rea/cmake-build-debug/CMakeFiles/linux_c_rea.dir
