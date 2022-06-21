@@ -1,0 +1,6 @@
+README.md
+setup.py
+loreta.egg-info/PKG-INFO
+loreta.egg-info/SOURCES.txt
+loreta.egg-info/dependency_links.txt
+loreta.egg-info/top_level.txt
